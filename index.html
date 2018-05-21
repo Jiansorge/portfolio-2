@@ -1,44 +1,88 @@
 <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+		<link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+		<title>About and Contact</title>
+	</head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>About Me - Jian's Homework 5</title>
-  <link rel="stylesheet" type="text/css" href="/styles/normalize.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Walter+Turncoat|Jua">
-<!--  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jua">-->
-  <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-</head>
-  
-<body>
-  <header>
-    <h1>About Me</h1>
-    <h4>Jian Sorge</h4>
-  </header>
-  
-  <main>
-    <p>Greetings, I am a human. I enjoy doing normal human activities such as playing sports with friends and <b>consuming fuel</b>.</p>
-    <p>It is positive to be alive and have emotions such as <b>fun</b> and <b>ANIMATED MOTION PICTURES</b>. </p>
-    <p>I am <s>programmed</s> happy to <b>politics</b> and <b>biological emotion</b>.</p>
-    <p>Sometimes I like to eat my <b>human snacks</b>.</p>
 
-    <nav>
+	<body>
+		<div class="contact">
+		 <a href="html200-hw1.html">Contact Me!</a>
+		</div>
+		<h1 class="title">About Me and Contact</h1>
+		<h4 class="sub-title">Design Philosophy</h4>
 
-      <i class="fas fa-user-secret"></i><ul><a href="portfolio.html">Portfolio</a></ul>
-      <i class="fas fa-user-secret"></i>
-      <ul><a href="hw6page.html">New Page for Homework 6</a></ul>
-      <i class="fas fa-user-secret"></i>
-    </nav>
-    
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3Z_E_5LdClg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-  </main>
-  
-  <footer>
+		<nav class="nav">
+			<a href="index.html" class="menu">Home</a>
+			<a href="portfolio.html" class="menu">Portfolio</a>
+			<a href="#" class="menu">About and Contact</a>
+			<a href="#" class="menu">Experience</a>
+			<a href="#" class="menu">Timeline</a>
+		</nav>
 
-    <p>© Jian Sorge, 2018 
-    All Rights Reserved</p>
-  </footer>
-</body>
+
+		<div class="main-page">
+			<article class="article">
+				<h2>About Me</h2>
+				<p>I am a project manager at a large aerospace company. During my front-end web development certification at UW Professional & Continuing Education, I was taught about the keys to responsive design.</p>
+				<h2>Design Philosophy</h2>
+				<div class="philosophy">
+					<p>Web design is all about drawing customers in with <a herf="https://developers.google.com/search/mobile-sites/get-started">streamlined and effective websites</a>. Websites should be accessible for all types of users, regardless of web browser, operating system or monitor size. </p>
+					<p>Those with vision, cognitition or physical impairments are included in this web accessbility philosophy, as they may consist of <a href="https://www.census.gov/newsroom/releases/archives/miscellaneous/cb12-134.html">20% of all users.</a></p>
+					<p>A responive website also affects customers without disabilities, such as those with slow internet or situational limitations like glaring sunlight or broken arms.</p>
+					<p>During my front-end web development certification at UW Professional & Continuing Education, I was taught the keys to responsive design, including mobile first design, fluid layouts, flexible grid and media queries.</p>
+					<p>Accessibility overlaps with other best practices such as mobile web design, device independence, multi-modal interaction, usability, design for older users, and search engine optimization. Accessible websites can have better search results, reduced maintenance costs, increased audience reach, and demonstrate corporate social responsibility.<p>
+					<p>Web accessibility is <b>required by law</b> in many situations.</p>
+				</div>
+			</article>
+
+
+			<aside class="aside">
+				<h4>Contact Me!</h4>
+				<!-- <img src="http://lorempixel.com/400/200/cats/" alt="cat"> -->
+				<!-- <h5 class="cat-name">The Biscuit</h5> -->
+				<!-- <div id="cat-of-the-week">
+					<h6>All she wants is to <br>break your walls.</h6>
+					<div class="book-now">
+					<a href="#">Book Now -></a>
+				</div> -->
+				<form>
+					<input autofocus placeholder="John"  type="text" name="first-name" id="first-name" class="test-input"/>
+					<label for="name">First Name</label>
+
+					<input placeholder="Doe"  type="text" name="last-name" id="last-name" class="test-input"/>
+					<label for="name">Last Name</label>
+
+					<input placeholder="johndoe@email.com" type="email" name="email" id="email"  required/>
+					<label for="email">What is your email address?</label>
+
+					<h4>Leave a Message</h4>
+					<!-- <img src="http://lorempixel.com/400/200/cats/" alt="cat2"> -->
+					<!-- <h5 class="cat-name">Odin</h5> -->
+					<!-- <div id="book-now">
+						<a href="#">Book Now -></a>
+					</div> -->
+
+					<textarea placeholder="Write your message here..." rows="15" cols="50" name="comments" id="comments" required></textarea>
+				  <label for="comments">Write me a message!</label>
+
+					<input type="submit" name="submit" Value="Leave Feedback" />
+				</form>
+			</aside>
+		</div>
+
+
+		<footer>
+			<br>Jian Sorge
+			<br><a href="https://www.pce.uw.edu/certificates/front-end-development-with-html-css-and-javascript">Certificate in Front-End Web Development, UW Professional & Continuing Education</a>
+			<br><a href="ji@nsorge.com">ji@nsorge.com</a>
+			<div class="copyright">
+				<br>
+				<br>Copyright 2018 Jian Sorge
+			</div>
+		</footer>
+	</body>
 </html>
-
-<!---->
