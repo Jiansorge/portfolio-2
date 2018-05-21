@@ -1,0 +1,180 @@
+* { box-sizing: border-box;}
+* { margin: 0; padding: 0; }
+
+body {
+  font-size:16px;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-weight:100;
+  flex:1;
+  max-width:1000px;
+
+}
+
+header{
+  background-color: black;
+}
+
+
+
+.headlink {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: right;
+  padding-right: 0.6rem;
+}
+
+.title {
+
+}
+
+h1 {
+  color:white;
+  padding:1rem;
+  padding-top:1.7rem;
+  padding-bottom:0rem;
+  letter-spacing: 1px;
+  text-shadow:0px 1px 1px white;
+  font-weight: 100;
+}
+
+h3 {
+  color:white;
+  padding: 1rem;
+  font-weight:100;
+}
+
+h3.title{
+  color:rgb(150,150,150);
+  padding:1rem;
+  padding-bottom:1.6rem;
+  padding-top:0rem;
+  font-size:1.05rem;
+}
+
+a {
+  color:rgb(228,0,0);
+}
+
+nav {
+  width:100%;
+  background-color:rgb(181,181,181);
+  font-weight: 100;
+  display:inline-flex;
+  text-align:center;
+  text-emphasis: none;
+  color:purple;
+}
+
+h3.link{
+  background-color: rgb(181,181,181);
+  color:purple;
+  padding:0.5rem;
+  text-align: center;
+  margin:auto;
+}
+
+nav a {
+  color:green;
+}
+
+
+main {
+  display:inline-flex;
+}
+
+article {
+  width: 65%;
+
+}
+
+h2 {
+  padding:1rem;
+  padding-top:2rem;
+  padding-bottom:0rem;
+  font-weight: 100;
+  padding-left:1.7rem;
+}
+
+p {
+  padding:1.7rem;
+  padding-top:1rem;
+  padding-bottom:0.8rem;
+  letter-spacing: 0.6px;
+
+}
+
+article h3{
+  color:black;
+}
+p.quote {
+
+}
+
+aside {
+  margin:.3rem;
+  margin-top:1.5rem;
+  padding:1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  border: 3px groove; border-color:rgb(209,209,209);
+  color:black;
+}
+
+h3.aside{
+  color:black;
+  padding:0.4rem;
+}
+
+h4{
+  font-weight:100;
+}
+
+p.subtitle {
+  padding:0.4rem;
+  font-size:0.8rem;
+  text-align: left;
+
+}
+
+a.sublink {
+  text-align:right;
+  display:block;
+  font-size:0.8rem;
+}
+
+footer{
+  background-color: black;
+  color:white;
+  font-weight:100;
+  padding:1rem;
+  padding-bottom:0.3rem;
+  font-size:0.9rem;
+  padding-top:1.5rem;
+
+}
+nav.foot{
+  display:block;
+  text-align:left;
+  letter-spacing: 0px;
+  color:white;
+  background-color:black;
+}
+
+
+
+li{
+  font-weight:100;
+  text-align: center;
+/*  display:flex;*/
+
+  font-size: 0.8rem;
+}
+
+nav p{
+  padding:0.2rem;
+  font-weight:100;
+}
+
+footer a{
+  color:rgb(210,0,0);
+}

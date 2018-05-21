@@ -1,0 +1,52 @@
+* { box-sizing: border-box;}
+/*https://necolas.github.io/normalize.css/8.0.0/normalize.css*/
+header {
+  text-align: center;
+  font-family: "Trebuchet MS,", Helvetica, sans-serif;
+  color: teal;
+  text-shadow: 2px 5px 10px ;
+  padding: 1rem 2rem;
+  border: 0 1rem;
+  border-style: groove;
+  background-color: aliceblue;
+  margin: .1rem;
+}
+
+.hover{
+  color: orangered;
+}
+
+body {
+  margin: 2rem;
+  font-family: "Palatino Linotype,", "Book Antiqua", Palatino, serif;
+  color: chartreuse;
+  padding: 0.5rem 2rem;  
+  border-color: dimgrey;
+  border-style: inset;
+  background-color:dimgray;
+}
+
+body p{
+  text-align: justify;
+}
+
+body nav {
+  text-align: center;
+  color: red;
+  background-color: antiquewhite;
+  opacity: .4;
+  height: 1.5rem;
+  width: 15rem;
+}
+
+footer {
+  text-align: center;
+  font-family: "Lucida Console", Manaco, monospace;
+  letter-spacing: 4px;
+  padding: .5rem 3rem;
+  color: lightcoral;
+  border: dashed 0.1rem yellow;
+  background-color: darkslategray;
+  height:10rem;
+  width: 20rem;
+}
